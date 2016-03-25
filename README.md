@@ -12,6 +12,7 @@
 ##Useage
 用法和标签控制器类似，只是ViewController的数组需要在初始化方法中直接传入。
 contentFrame表示分段控制器自身的frame
+```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     NSMutableArray * viewControllers = [NSMutableArray arrayWithCapacity:0];
@@ -37,3 +38,4 @@ contentFrame表示分段控制器自身的frame
     
     return YES;
 }
+```
