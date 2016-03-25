@@ -14,6 +14,9 @@
 		E593BBFC1CA3B505005321CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E593BBFB1CA3B505005321CB /* Images.xcassets */; };
 		E593BBFF1CA3B505005321CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E593BBFD1CA3B505005321CB /* LaunchScreen.xib */; };
 		E593BC0B1CA3B505005321CB /* DHSegmentedControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E593BC0A1CA3B505005321CB /* DHSegmentedControllerTests.m */; };
+		E593BC161CA3B570005321CB /* DHSegmentedController.m in Sources */ = {isa = PBXBuildFile; fileRef = E593BC151CA3B570005321CB /* DHSegmentedController.m */; };
+		E593BC1C1CA3C26B005321CB /* DHSegmentedControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = E593BC1B1CA3C26B005321CB /* DHSegmentedControlView.m */; };
+		E593BC1E1CA3D525005321CB /* down_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E593BC1D1CA3D525005321CB /* down_arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		E593BC041CA3B505005321CB /* DHSegmentedControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHSegmentedControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E593BC091CA3B505005321CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E593BC0A1CA3B505005321CB /* DHSegmentedControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHSegmentedControllerTests.m; sourceTree = "<group>"; };
+		E593BC141CA3B570005321CB /* DHSegmentedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSegmentedController.h; sourceTree = "<group>"; };
+		E593BC151CA3B570005321CB /* DHSegmentedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSegmentedController.m; sourceTree = "<group>"; };
+		E593BC1A1CA3C26B005321CB /* DHSegmentedControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSegmentedControlView.h; sourceTree = "<group>"; };
+		E593BC1B1CA3C26B005321CB /* DHSegmentedControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSegmentedControlView.m; sourceTree = "<group>"; };
+		E593BC1D1CA3D525005321CB /* down_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +89,15 @@
 		E593BBED1CA3B505005321CB /* DHSegmentedController */ = {
 			isa = PBXGroup;
 			children = (
+				E593BC1D1CA3D525005321CB /* down_arrow.png */,
 				E593BBF21CA3B505005321CB /* AppDelegate.h */,
 				E593BBF31CA3B505005321CB /* AppDelegate.m */,
 				E593BBF51CA3B505005321CB /* ViewController.h */,
 				E593BBF61CA3B505005321CB /* ViewController.m */,
+				E593BC141CA3B570005321CB /* DHSegmentedController.h */,
+				E593BC151CA3B570005321CB /* DHSegmentedController.m */,
+				E593BC1A1CA3C26B005321CB /* DHSegmentedControlView.h */,
+				E593BC1B1CA3C26B005321CB /* DHSegmentedControlView.m */,
 				E593BBF81CA3B505005321CB /* Main.storyboard */,
 				E593BBFB1CA3B505005321CB /* Images.xcassets */,
 				E593BBFD1CA3B505005321CB /* LaunchScreen.xib */,
@@ -202,6 +215,7 @@
 				E593BBFA1CA3B505005321CB /* Main.storyboard in Resources */,
 				E593BBFF1CA3B505005321CB /* LaunchScreen.xib in Resources */,
 				E593BBFC1CA3B505005321CB /* Images.xcassets in Resources */,
+				E593BC1E1CA3D525005321CB /* down_arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +235,8 @@
 			files = (
 				E593BBF71CA3B505005321CB /* ViewController.m in Sources */,
 				E593BBF41CA3B505005321CB /* AppDelegate.m in Sources */,
+				E593BC161CA3B570005321CB /* DHSegmentedController.m in Sources */,
+				E593BC1C1CA3C26B005321CB /* DHSegmentedControlView.m in Sources */,
 				E593BBF11CA3B505005321CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +428,7 @@
 				E593BC101CA3B505005321CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E593BC111CA3B505005321CB /* Build configuration list for PBXNativeTarget "DHSegmentedControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				E593BC131CA3B505005321CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
